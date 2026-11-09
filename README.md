@@ -1,4 +1,4 @@
-# Firm-to-firm production networks across five EU countries
+# Beyond firm size: network position and shock transmission in firm-to-firm production networks across five economies
 
 Harmonised firm-to-firm production networks for Belgium, Estonia, Hungary, Italy and Portugal, built from administrative VAT and e-invoicing records within the ECB's [Challenges for Monetary Policy Transmission in a Changing World (ChaMP)](https://www.ecb.europa.eu/pub/economic-research/research-networks/html/champ.en.html) research network.
 
