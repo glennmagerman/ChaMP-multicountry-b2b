@@ -1,0 +1,38 @@
+name: Pipeline bug
+description: The pipeline fails or produces output that looks wrong.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This issue is public. Do not paste data, firm identifiers or unaggregated output. Reproduce the problem with synthetic data (`data_type: "random"`) where you can.
+  - type: dropdown
+    id: data_type
+    attributes:
+      label: Data
+      options:
+        - Synthetic data (task 0)
+        - Real data
+    validations:
+      required: true
+  - type: input
+    id: task
+    attributes:
+      label: Task and script
+      placeholder: For example task2_clean_data, create_panel.py
+    validations:
+      required: true
+  - type: textarea
+    id: what_happened
+    attributes:
+      label: What happened
+      description: The error message or traceback, and what you expected instead.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: Operating system, Python version, commit or release you ran
+    validations:
+      required: true
