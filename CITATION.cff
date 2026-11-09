@@ -12,12 +12,17 @@ authors:
   - family-names: Dhyne
     given-names: Emmanuel
     affiliation: "National Bank of Belgium"
-repository-code: "https://github.com/glennmagerman/ECB_multicountry"
+repository-code: "https://github.com/glennmagerman/ChaMP-multicountry-b2b"
 license: MIT
 preferred-citation:
   type: report
   title: "Beyond firm size: network position and shock transmission in firm-to-firm production networks across five economies"
   year: 2026
+  month: 9
+  institution:
+    name: "National Bank of Belgium"
+  number: "496"
+  url: "https://www.nbb.be/doc/ts/publications/wp/wp496en.pdf"
   authors:
     - family-names: Magerman
       given-names: Glenn
@@ -37,4 +42,4 @@ preferred-citation:
       given-names: Giacomo
     - family-names: Saldías
       given-names: Martín
-  notes: "Working paper, September 2026."
+  notes: "National Bank of Belgium Working Paper Research No 496, September 2026. Also published as Banco de Portugal Working Paper No 11/2026, Eesti Pank Working Paper No 8/2026 and Banca d'Italia Temi di discussione No 1549 (October 2026)."

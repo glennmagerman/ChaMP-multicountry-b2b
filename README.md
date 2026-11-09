@@ -12,7 +12,14 @@ This repository holds three things:
 
 ## The paper
 
-Magerman, G., A. Palazzolo, E. Dhyne, A. Borsos, D. Kulikov, A. Linarello, A. Paulus, G. Romanini and M. Saldias (2026), "Beyond firm size: network position and shock transmission in firm-to-firm production networks across five economies". Working paper, September 2026.
+Magerman, G., A. Palazzolo, E. Dhyne, A. Borsos, D. Kulikov, A. Linarello, A. Paulus, G. Romanini and M. Saldías (2026), "Beyond firm size: network position and shock transmission in firm-to-firm production networks across five economies".
+
+The paper appears in the working paper series of four of the participating institutions:
+
+- National Bank of Belgium, Working Paper No 496, September 2026 ([page](https://www.nbb.be/en/publications-research/all-publications/beyond-firm-size-network-position-and-shock-transmission-firm-firm-production-networks-across-five), [PDF](https://www.nbb.be/doc/ts/publications/wp/wp496en.pdf))
+- Banco de Portugal, Working Paper No 11/2026 ([PDF](https://www.bportugal.pt/sites/default/files/documents/2026-09/WP202611.pdf))
+- Eesti Pank, Working Paper No 8/2026 ([page](https://www.eestipank.ee/en/publications/working-papers/2026/82026-glenn-magerman-et-al-beyond-firm-size-network-position-and-shock-transmission-firm-firm))
+- Banca d'Italia, Temi di discussione No 1549, October 2026 ([page](https://www.bancaditalia.it/pubblicazioni/temi-discussione/2026/2026-1549/index.html), [PDF](https://www.bancaditalia.it/pubblicazioni/temi-discussione/2026/2026-1549/en_tema_1549.pdf))
 
 The paper covers around 3 million firms and more than 100 million supplier-customer relationships in 2019. Five facts stand out:
 
@@ -45,6 +52,10 @@ The table below is an extract of [`moments/key_moments.csv`](moments/key_moments
 ## How to cite
 
 If you use the code or the moments, please cite the paper (reference above). A [`CITATION.cff`](CITATION.cff) file is included, so GitHub's "Cite this repository" button gives you BibTeX and APA.
+
+## Questions
+
+Questions about the paper, the method or the code are best asked as a [GitHub issue](https://github.com/glennmagerman/ChaMP-multicountry-b2b/issues) rather than by email, so that the answer is visible to other readers. Please check the open and closed issues first; your question may already have an answer. Enquiries about joining the network go to Glenn Magerman by email (see [Join the network](#join-the-network)).
 
 ## Run it on your data
 
@@ -79,7 +90,7 @@ The code is organised as modular tasks. Each task has an input, a function and a
 
 `tasks/common/` holds the configuration loader and shared utilities. `tasks/raw_data/` holds, next to your input tables, the Belgian impulse response estimates and World Bank GDP data used by the monetary policy counterfactual (see [`tasks/raw_data/README.md`](tasks/raw_data/README.md)).
 
-## Related pipeline. 
+## Related pipeline
 A separate BIS project builds on the same distributed-data principles to produce harmonised cross-country statistics and policy indicators from confidential administrative data. That pipeline is maintained separately because its objectives, inputs and outputs differ from this ChaMP project. A link to that repo will follow soon.
 
 ## Join the network
