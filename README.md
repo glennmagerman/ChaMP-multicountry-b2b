@@ -50,6 +50,8 @@ The pipeline runs on any dataset with two tables. The code runs locally and writ
 | Firm-to-firm transactions | `year`, `vat_i` (seller), `vat_j` (buyer), `sales_ij` | seller, buyer, year |
 | Firm level data | `year`, `vat`, `nace`, `turnover`, `inputs_total` | firm, year |
 
+The preparation each partner does before the run, and the cleaning rules the pipeline applies, are in [`docs/DATA_SPEC.md`](docs/DATA_SPEC.md).
+
 **Steps**
 
 1. Clone the repository and create a virtual environment with Python 3.12: `pip install -r tasks/requirements.txt`.
