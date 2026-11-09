@@ -1,0 +1,65 @@
+name: Interested in joining
+description: Your institution holds firm-to-firm transaction data and would like to add its country to the benchmark.
+title: "[Join] Country name"
+labels: ["join"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This issue is public. Do not post data, firm identifiers or confidential details. If you prefer to make contact privately, email glenn.magerman@ulb.be instead.
+  - type: input
+    id: institution
+    attributes:
+      label: Institution
+      placeholder: For example a central bank, statistical office or tax administration
+    validations:
+      required: true
+  - type: input
+    id: country
+    attributes:
+      label: Country
+    validations:
+      required: true
+  - type: dropdown
+    id: data_type
+    attributes:
+      label: Firm-to-firm transaction data
+      multiple: true
+      options:
+        - VAT listings or VAT return appendices
+        - E-invoicing records
+        - Payment data
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: years
+    attributes:
+      label: Years available
+      placeholder: For example 2015 to 2024
+  - type: dropdown
+    id: accounts
+    attributes:
+      label: Firm level accounts (turnover, inputs, sector) available?
+      options:
+        - "Yes"
+        - Partly
+        - "No"
+        - Not sure
+    validations:
+      required: true
+  - type: dropdown
+    id: pilot
+    attributes:
+      label: Have you run the pipeline on synthetic data (task 0)?
+      options:
+        - "Yes, it runs"
+        - "Yes, with problems (describe below)"
+        - "Not yet"
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else
+      description: Reporting thresholds, access constraints, timeline or questions for the coordinating team.

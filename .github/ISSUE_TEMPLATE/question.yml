@@ -1,0 +1,21 @@
+name: Question about the paper, method or code
+description: Ask how a statistic is defined, how a table is built or how the code works.
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please check the open and closed issues first. Your question may already have an answer.
+  - type: input
+    id: reference
+    attributes:
+      label: Where does your question come from?
+      placeholder: For example Table 4 of the working paper, moments/key_moments.csv or tasks/task3_network_statistics
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+    validations:
+      required: true
