@@ -93,7 +93,7 @@ The paper covers around 3 million firms and more than 100 million supplier-custo
 - A firm's position along the production chain (upstreamness, downstreamness) is orthogonal to its size and centrality, and cannot be recovered from sector tables.
 - Production networks create an indirect channel of monetary policy transmission. A tightening affects firms directly, but also propagates backward through their customers. Further upstream, this indirect demand channel dominates the response. Differences in production structure therefore generate different aggregate responses to the same ECB shock.
 
-A tagged release with the exact code behind the working paper will follow. Use that release, not `main`, to reproduce the paper.
+A tagged release with the exact code behind the working paper will follow. Use that release, not `main`, to reproduce the paper. The script that builds the paper's tables from the country results is in [`paper/`](paper/).
 
 ### Key moments
 

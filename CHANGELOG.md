@@ -7,6 +7,7 @@ Changes to the pipeline and to the reported moments, newest first. Documentation
 - README presents the project as an open network that new countries can join, with a table of countries in the benchmark and a joining procedure.
 - Issue templates for joining the network, questions and pipeline bugs replace the GitHub defaults.
 - This changelog.
+- `paper/make_tables.py`, the script the coordinators run to build the working paper tables from the collected country results.
 
 ## 2026 working paper
 
